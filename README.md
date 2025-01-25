@@ -1,22 +1,18 @@
-####  How to run the  above app 
+#######  How to run the  above app 
 
-Create a .env File:
+1)  Create a .env File:
 
-Create a new file named .env.
+---> Create a new file named .env.
 
 Add your API keys in the format specified for eg  
 
 (GROQ_API_KEY = "Give Your Groq API Key"
 HF_TOKEN = "Give Your HF API Key").
 
-Install Dependencies:
+2) Install Dependencies:
 
-Ensure Python is installed on your system.
+---> pip install -r requirements.txt
 
-Open your command prompt or terminal and navigate to the directory with the requirements.txt file.
+3) Run the Application:
 
-Install all dependencies as per the instructions.
-
-Run the Application:
-
-Use the command specified to run the app after installing the dependencies.
+---> streamlit run app.py
