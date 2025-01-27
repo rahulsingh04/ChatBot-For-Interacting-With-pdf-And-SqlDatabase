@@ -8,7 +8,6 @@ langchain_community
 faiss-cpu
 streamlit
 langchain-groq
-langchain_groq
 fastapi
 uvicorn
 langserve
@@ -32,3 +31,4 @@ numexpr
 openpyxl
 langgraph
 datasets
+langchain-groq

@@ -48,7 +48,7 @@ def get_response(question):
             stream_mode="values",
             config=config)
     
-        return response
+        return response['messages'][-1].content
     except Exception as e:
         return  str(e)
 
